@@ -1,0 +1,20 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    color: azure;
+}
+
+.logo {
+    width: 15rem;
+}
+
+.header {
+    font-size: 2rem;
+}
+
+#location {
+    color: rgb(199, 0, 0);
+}
