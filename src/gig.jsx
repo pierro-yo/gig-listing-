@@ -7,9 +7,9 @@ const Gig = (props) => {
         <div className="gig">
             <h3 className="header">{props.header}</h3>
             <img className="logo" src={sad_programmer} alt="Sad Programmer" />            
-            <p id = "description">{props.description}</p>
-            <p id = "time-and-date">{props.timeDate}</p>
-            <p id = "location">{props.location}</p>
+            <p data-testid = "description">{props.description}</p>
+            <p data-testid = "timeDate">{props.timeDate}</p>
+            <p data-testid = "location">{props.location}</p>
         </div>
     )
 }
